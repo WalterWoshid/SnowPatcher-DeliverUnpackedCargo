@@ -1,0 +1,262 @@
+[
+  {
+    "action": "set",
+    "path": [
+      "tasksSettings",
+      "RU_03_01_BASE_SUPPLIES_TSK",
+      "stages",
+      0,
+      "actions",
+      "zoneToFill",
+      0,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_03_01 || RU_03_01_PORT_DROPOFF",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "tasksSettings",
+      "RU_03_01_BRIDGE_REPAIR_B_TSK",
+      "stages",
+      0,
+      "actions",
+      "zoneToFill",
+      0,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_03_01 || RU_03_01_BRIDGE_REPAIR_B",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "tasksSettings",
+      "RU_03_01_CAMP_RESUPPLY_TSK",
+      "stages",
+      0,
+      "actions",
+      "zoneToFill",
+      0,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_03_01 || RU_03_01_CAMP_0",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "tasksSettings",
+      "RU_03_01_CAMP_RESUPPLY_TSK",
+      "stages",
+      0,
+      "actions",
+      "zoneToFill",
+      1,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_03_01 || RU_03_01_CAMP_1",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "tasksSettings",
+      "RU_03_01_HELI_CARGO_RECOVERY_TSK",
+      "stages",
+      0,
+      "actions",
+      "zoneToFill",
+      0,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_03_01 || RU_03_01_HELI_CARGO_RECOVERY_TARGET",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "tasksSettings",
+      "RU_03_01_LOG_CABIN_REPAIR_TSK",
+      "stages",
+      0,
+      "actions",
+      "zoneToFill",
+      0,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_03_01 || RU_03_01_LOG_CABIN_REPAIR_TARGET",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "tasksSettings",
+      "RU_03_01_METEO_RESTORE_TSK",
+      "stages",
+      0,
+      "actions",
+      "zoneToFill",
+      0,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_03_01 || RU_03_01_METEO_RESTORE_TARGET",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "tasksSettings",
+      "RU_03_01_MILITARY_SUPPLY_TSK",
+      "stages",
+      0,
+      "actions",
+      "zoneToFill",
+      0,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_03_01 || RU_03_01_MILITARY_SUPPLY_TARGET",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "tasksSettings",
+      "RU_03_01_POWERLINE_1_REPAIR_TSK",
+      "stages",
+      0,
+      "actions",
+      "zoneToFill",
+      0,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_03_01 || RU_03_01_POWERLINE_1",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "tasksSettings",
+      "RU_03_01_POWERLINE_3_REPAIR_TSK",
+      "stages",
+      0,
+      "actions",
+      "zoneToFill",
+      0,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_03_01 || RU_03_01_POWERLINE_3",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  }
+]

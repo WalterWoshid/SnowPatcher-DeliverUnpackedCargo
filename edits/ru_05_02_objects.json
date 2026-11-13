@@ -1,0 +1,210 @@
+[
+  {
+    "action": "set",
+    "path": [
+      "contractsSettings",
+      "RU_05_02_BIG_BRIDGE_01",
+      "stages",
+      0,
+      "actions",
+      "zoneToFill",
+      0,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_05_02 || RU_05_02_BIG_BRIDGE_c",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "contractsSettings",
+      "RU_05_02_BIG_BRIDGE_02",
+      "stages",
+      0,
+      "actions",
+      "zoneToFill",
+      0,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_05_02 || RU_05_02_BIG_BRIDGE_b",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "contractsSettings",
+      "RU_05_02_BIG_BRIDGE_02",
+      "stages",
+      1,
+      "actions",
+      "zoneToFill",
+      0,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_05_02 || RU_05_02_BIG_BRIDGE_c",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "contractsSettings",
+      "RU_05_02_RESTORATION_VILLAGE_PUMPTOWER",
+      "stages",
+      0,
+      "actions",
+      "zoneToFill",
+      0,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_05_02 || RU_05_02_PUMPTOWER",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "contractsSettings",
+      "RU_05_02_RESTORATION_VILLAGE_PUMPTOWER",
+      "stages",
+      0,
+      "actions",
+      "zoneToFill",
+      1,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_05_02 || RU_05_02_PUMPTOWER",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "contractsSettings",
+      "RU_05_02_RESTORATION_VILLAGE_SUPPLIES",
+      "stages",
+      0,
+      "actions",
+      "zoneToFill",
+      0,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_05_02 || RU_05_02_CONTRYSIDE_01a",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "tasksSettings",
+      "RU_05_02_BRIDGE_01",
+      "stages",
+      0,
+      "actions",
+      "zoneToFill",
+      0,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_05_02 || RU_05_02_WOODEN_BRIDGE_01a",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "tasksSettings",
+      "RU_05_02_DELIVERY_01",
+      "stages",
+      0,
+      "actions",
+      "zoneToFill",
+      0,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_05_02 || RU_05_02_HERMIT_HUT",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  }
+]

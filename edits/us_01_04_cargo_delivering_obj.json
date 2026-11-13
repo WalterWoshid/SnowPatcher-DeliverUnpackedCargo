@@ -1,0 +1,51 @@
+[
+  {
+    "action": "set",
+    "path": [
+      "stages",
+      1,
+      "actions",
+      "zoneToFill",
+      0,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_us_01_02 || US_01_02_DRILLING",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "stages",
+      2,
+      "actions",
+      "zoneToFill",
+      0,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "sslModule": "game.terrain_descs_storage.zone_identificator_utils",
+          "globalZoneId": "level_us_01_02 || US_01_02_DRILLING",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  }
+]

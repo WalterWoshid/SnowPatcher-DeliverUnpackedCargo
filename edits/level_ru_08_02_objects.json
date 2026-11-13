@@ -1,0 +1,704 @@
+[
+  {
+    "action": "set",
+    "path": [
+      "contractsSettings",
+      "RU_08_02_CHEMICAL_BARRELS",
+      "stages",
+      1,
+      "actions",
+      "zoneToFill",
+      0,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_08_02 || RU_08_02_STORAGE",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "contractsSettings",
+      "RU_08_02_CHEMICAL_RESTORER",
+      "stages",
+      1,
+      "actions",
+      "zoneToFill",
+      0,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_08_02 || RU_08_02_CHEMICAL_RESTORER_01",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "contractsSettings",
+      "RU_08_02_CHEMICAL_RESTORER",
+      "stages",
+      1,
+      "actions",
+      "zoneToFill",
+      1,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_08_02 || RU_08_02_CHEMICAL_RESTORER_03",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "contractsSettings",
+      "RU_08_02_CHEMICAL_RESTORER",
+      "stages",
+      1,
+      "actions",
+      "zoneToFill",
+      2,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_08_02 || RU_08_02_CHEMICAL_RESTORER_04",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "contractsSettings",
+      "RU_08_02_CHEMICAL_RESTORER",
+      "stages",
+      1,
+      "actions",
+      "zoneToFill",
+      3,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_08_02 || RU_08_02_CHEMICAL_RESTORER_05",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "contractsSettings",
+      "RU_08_02_CHEMICAL_RESTORER",
+      "stages",
+      1,
+      "actions",
+      "zoneToFill",
+      4,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_08_02 || RU_08_02_CHEMICAL_RESTORER_06",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "contractsSettings",
+      "RU_08_02_DRAIN_DRY",
+      "stages",
+      1,
+      "actions",
+      "zoneToFill",
+      0,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_08_03 || RU_08_03_DRAIN_DRY_DELIVERY_01",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "contractsSettings",
+      "RU_08_02_DRAIN_DRY",
+      "stages",
+      1,
+      "actions",
+      "zoneToFill",
+      1,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_08_03 || RU_08_03_DRAIN_DRY_DELIVERY_02",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "contractsSettings",
+      "RU_08_02_FARMING",
+      "stages",
+      5,
+      "actions",
+      "zoneToFill",
+      0,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_08_01 || RU_08_01_RAILROAD",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "contractsSettings",
+      "RU_08_02_GMO_POTATO_BUYING",
+      "stages",
+      0,
+      "actions",
+      "zoneToFill",
+      0,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_08_01 || RU_08_01_RAILROAD",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "contractsSettings",
+      "RU_08_02_JUNK_DELIVERY_01_CONTR",
+      "stages",
+      0,
+      "actions",
+      "zoneToFill",
+      0,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_08_02 || RU_08_02_JUNK_DELIVERY_01",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "contractsSettings",
+      "RU_08_02_JUNK_DELIVERY_01_CONTR",
+      "stages",
+      1,
+      "actions",
+      "zoneToFill",
+      0,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_08_04 || RU_08_04_JUNK_DELIVERY_01_FINISH",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "contractsSettings",
+      "RU_08_02_JUNK_DELIVERY_02_CONTR",
+      "stages",
+      1,
+      "actions",
+      "zoneToFill",
+      0,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_08_04 || RU_08_04_JUNK_DELIVERY_02_FINISH",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "contractsSettings",
+      "RU_08_02_JUNK_DELIVERY_03",
+      "stages",
+      1,
+      "actions",
+      "zoneToFill",
+      0,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_08_04 || RU_08_04_AIRPORT_RECOVERY",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "contractsSettings",
+      "RU_08_02_MANURE_TANKS",
+      "stages",
+      1,
+      "actions",
+      "zoneToFill",
+      0,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_08_04 || RU_08_04_MANURE_TANKS_FINISH",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "contractsSettings",
+      "RU_08_02_POWER_FIX",
+      "stages",
+      0,
+      "actions",
+      "zoneToFill",
+      0,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_08_02 || RU_08_02_POWER_FIX_02",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "contractsSettings",
+      "RU_08_02_POWER_FIX",
+      "stages",
+      0,
+      "actions",
+      "zoneToFill",
+      1,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_08_02 || RU_08_02_POWER_FIX_02",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "contractsSettings",
+      "RU_08_02_TECH_FIX_CONTR",
+      "stages",
+      0,
+      "actions",
+      "zoneToFill",
+      0,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_08_02 || RU_08_02_TECH_FIX",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "contractsSettings",
+      "RU_08_02_TECH_FIX_CONTR",
+      "stages",
+      0,
+      "actions",
+      "zoneToFill",
+      1,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_08_02 || RU_08_02_TECH_FIX",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "contractsSettings",
+      "RU_08_02_VEHICAL_PARTS_HELP",
+      "stages",
+      2,
+      "actions",
+      "zoneToFill",
+      0,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_08_04 || RU_08_04_GARAGE_RECOVERY",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "contractsSettings",
+      "RU_08_02_WATER_TUBING",
+      "stages",
+      1,
+      "actions",
+      "zoneToFill",
+      0,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_08_02 || RU_08_02_WATER_TANK_DELIVERY_1",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "contractsSettings",
+      "RU_08_02_WATER_TUBING",
+      "stages",
+      2,
+      "actions",
+      "zoneToFill",
+      0,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_08_03 || RU_08_03_RAILWAY_STATION",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "tasksSettings",
+      "RU_08_02_BRIDGE_FIX_01",
+      "stages",
+      0,
+      "actions",
+      "zoneToFill",
+      0,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_08_02 || RU_08_02_BRIDGE_FIX_01",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "tasksSettings",
+      "RU_08_02_BRIDGE_FIX_01",
+      "stages",
+      1,
+      "actions",
+      "zoneToFill",
+      0,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_08_02 || RU_08_02_BRIDGE_FIX_01",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "tasksSettings",
+      "RU_08_02_CONSUMABLE_MATERIAL",
+      "stages",
+      0,
+      "actions",
+      "zoneToFill",
+      0,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_08_02 || RU_08_02_CONSUMABLE_MATERIAL_01",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "tasksSettings",
+      "RU_08_02_DELIVERY_TASK",
+      "stages",
+      0,
+      "actions",
+      "zoneToFill",
+      0,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_08_02 || RU_08_02_STORAGE",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "tasksSettings",
+      "RU_08_02_LOST_CARGO",
+      "stages",
+      0,
+      "actions",
+      "zoneToFill",
+      0,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_08_02 || RU_08_02_STORAGE",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  }
+]

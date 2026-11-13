@@ -1,0 +1,1174 @@
+[
+  {
+    "action": "set",
+    "path": [
+      "contractsSettings",
+      "RU_13_01_AERODROM_01_CONTRACT",
+      "stages",
+      0,
+      "actions",
+      "zoneToFill",
+      0,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_13_01 || RU_13_01_AERODROM_01_01",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "contractsSettings",
+      "RU_13_01_AERODROM_02_CONTRACT",
+      "stages",
+      0,
+      "actions",
+      "zoneToFill",
+      0,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_13_01 || RU_13_01_AERODROM_02",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "contractsSettings",
+      "RU_13_01_AERODROM_02_CONTRACT",
+      "stages",
+      0,
+      "actions",
+      "zoneToFill",
+      1,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_13_01 || RU_13_01_AERODROM_02",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "contractsSettings",
+      "RU_13_01_CONSTRUCTION_RIBBONS_01_CONTRACT",
+      "stages",
+      0,
+      "actions",
+      "zoneToFill",
+      0,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_13_01 || RU_13_01_CONSTRUCTION_RIBBONS_01_01",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "contractsSettings",
+      "RU_13_01_CONSTRUCTION_RIBBONS_01_CONTRACT",
+      "stages",
+      1,
+      "actions",
+      "zoneToFill",
+      0,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "sslModule": "game.terrain_descs_storage.zone_identificator_utils",
+          "globalZoneId": "level_ru_13_01 || RU_13_01_CONSTRUCTION_RIBBONS_01_01",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "contractsSettings",
+      "RU_13_01_CONSTRUCTION_RIBBONS_01_CONTRACT",
+      "stages",
+      2,
+      "actions",
+      "zoneToFill",
+      0,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_13_01 || RU_13_01_CONSTRUCTION_RIBBONS_01_03",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "contractsSettings",
+      "RU_13_01_CONSTRUCTION_RIBBONS_01_CONTRACT",
+      "stages",
+      3,
+      "actions",
+      "zoneToFill",
+      0,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "sslModule": "game.terrain_descs_storage.zone_identificator_utils",
+          "globalZoneId": "level_ru_13_01 || RU_13_01_CONSTRUCTION_RIBBONS_01_03",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "contractsSettings",
+      "RU_13_01_CONSTRUCTION_RIBBONS_02_CONTRACT",
+      "stages",
+      0,
+      "actions",
+      "zoneToFill",
+      0,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_13_01 || RU_13_01_CONSTRUCTION_RIBBONS_02_01",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "contractsSettings",
+      "RU_13_01_CONSTRUCTION_RIBBONS_02_CONTRACT",
+      "stages",
+      0,
+      "actions",
+      "zoneToFill",
+      1,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_13_01 || RU_13_01_CONSTRUCTION_RIBBONS_02_01",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "contractsSettings",
+      "RU_13_01_DELIVERY_TROLLEY_CONTRACT",
+      "stages",
+      0,
+      "actions",
+      "zoneToFill",
+      0,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_13_01 || RU_13_01_SILVER_CAREER",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "contractsSettings",
+      "RU_13_01_EXPORT_SILVER_CONTRACT",
+      "stages",
+      0,
+      "actions",
+      "zoneToFill",
+      0,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_13_01 || RU_13_01_EXPORT_AERODROM",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "contractsSettings",
+      "RU_13_01_LOGISTICS_CENTER_CONTRACT",
+      "stages",
+      0,
+      "actions",
+      "zoneToFill",
+      0,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_13_01 || RU_13_01_LOGISTICS_CENTER",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "contractsSettings",
+      "RU_13_01_REPAIR_SILVER_CONTRACT",
+      "stages",
+      0,
+      "actions",
+      "zoneToFill",
+      0,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_13_01 || RU_13_01_SILVER_FACTORY",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "contractsSettings",
+      "RU_13_01_REPAIR_SILVER_CONTRACT",
+      "stages",
+      0,
+      "actions",
+      "zoneToFill",
+      1,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_13_01 || RU_13_01_SILVER_FACTORY",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "contractsSettings",
+      "RU_13_01_SUPPLY_CAREER_03_CONTRACT",
+      "stages",
+      1,
+      "actions",
+      "zoneToFill",
+      0,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_13_01 || RU_13_01_OLD_SHALE_CAREER",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "contractsSettings",
+      "RU_13_01_SUPPLY_CAREER_03_CONTRACT",
+      "stages",
+      1,
+      "actions",
+      "zoneToFill",
+      1,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_13_01 || RU_13_01_SILVER_CAREER",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "contractsSettings",
+      "RU_13_01_SUPPLY_CAREER_04_CONTRACT",
+      "stages",
+      0,
+      "actions",
+      "zoneToFill",
+      0,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_13_01 || RU_13_01_SILVER_CAREER",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "contractsSettings",
+      "RU_13_01_SUPPLY_CAREER_04_CONTRACT",
+      "stages",
+      0,
+      "actions",
+      "zoneToFill",
+      1,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_13_01 || RU_13_01_SILVER_CAREER",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "tasksSettings",
+      "RU_13_01_AVIATION_FUEL",
+      "stages",
+      0,
+      "actions",
+      "zoneToFill",
+      0,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_13_01 || RU_13_01_AVIATION_FUEL_01",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "tasksSettings",
+      "RU_13_01_AVIATION_FUEL",
+      "stages",
+      0,
+      "actions",
+      "zoneToFill",
+      1,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_13_01 || RU_13_01_AVIATION_FUEL_02",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "tasksSettings",
+      "RU_13_01_CANYON_BLOCKAGE",
+      "stages",
+      0,
+      "actions",
+      "zoneToFill",
+      0,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_13_01 || RU_13_01_CANYON_BLOCKAGE_1",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "tasksSettings",
+      "RU_13_01_CANYON_BLOCKAGE",
+      "stages",
+      0,
+      "actions",
+      "zoneToFill",
+      1,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_13_01 || RU_13_01_CANYON_BLOCKAGE_1",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "tasksSettings",
+      "RU_13_01_EASTERN_BRIDGE",
+      "stages",
+      0,
+      "actions",
+      "zoneToFill",
+      1,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_13_01 || RU_13_01_EASTERN_BRIDGE_1",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "tasksSettings",
+      "RU_13_01_GREAT_DEAL",
+      "stages",
+      2,
+      "actions",
+      "zoneToFill",
+      0,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_13_01 || RU_13_01_GREAT_DEAL_03",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "tasksSettings",
+      "RU_13_01_HELP_ADMINISTRATION_02",
+      "stages",
+      1,
+      "actions",
+      "zoneToFill",
+      0,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_13_01 || RU_13_01_HELP_ADMINISTRATION_02_END",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "tasksSettings",
+      "RU_13_01_HELP_ADMINISTRATION_03",
+      "stages",
+      0,
+      "actions",
+      "zoneToFill",
+      0,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_13_01 || RU_13_01_HELP_ADMINISTRATION_03",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "tasksSettings",
+      "RU_13_01_HELP_BORAT",
+      "stages",
+      0,
+      "actions",
+      "zoneToFill",
+      0,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_13_01 || RU_13_01_HELP_BORAT_DELIVERY",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "tasksSettings",
+      "RU_13_01_HUMANITARIAN_ASSISTANCE_FOOD",
+      "stages",
+      1,
+      "actions",
+      "zoneToFill",
+      0,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_13_01 || RU_13_01_HUMANITARIAN_FOOD_GIVER_01_01",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "tasksSettings",
+      "RU_13_01_HUMANITARIAN_ASSISTANCE_FOOD",
+      "stages",
+      1,
+      "actions",
+      "zoneToFill",
+      1,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_13_01 || RU_13_01_HUMANITARIAN_FOOD_GIVER_01_02",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "tasksSettings",
+      "RU_13_01_HUMANITARIAN_ASSISTANCE_FOOD",
+      "stages",
+      1,
+      "actions",
+      "zoneToFill",
+      2,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_13_01 || RU_13_01_HUMANITARIAN_FOOD_GIVER_01_03",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "tasksSettings",
+      "RU_13_01_HUMANITARIAN_ASSISTANCE_FUEL",
+      "stages",
+      0,
+      "actions",
+      "zoneToFill",
+      0,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_13_01 || RU_13_01_HUMANITARIAN_FUEL_GIVER_01_01",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "tasksSettings",
+      "RU_13_01_HUMANITARIAN_ASSISTANCE_FUEL",
+      "stages",
+      0,
+      "actions",
+      "zoneToFill",
+      1,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_13_01 || RU_13_01_HUMANITARIAN_FUEL_GIVER_01_02",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "tasksSettings",
+      "RU_13_01_HUMANITARIAN_ASSISTANCE_FUEL",
+      "stages",
+      0,
+      "actions",
+      "zoneToFill",
+      2,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_13_01 || RU_13_01_HUMANITARIAN_FUEL_GIVER_01_03",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "tasksSettings",
+      "RU_13_01_HUMANITARIAN_ASSISTANCE_FUEL",
+      "stages",
+      0,
+      "actions",
+      "zoneToFill",
+      3,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_13_01 || RU_13_01_HUMANITARIAN_FUEL_GIVER_01_04",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "tasksSettings",
+      "RU_13_01_HUMANITARIAN_ASSISTANCE_FUEL",
+      "stages",
+      0,
+      "actions",
+      "zoneToFill",
+      4,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_13_01 || RU_13_01_HUMANITARIAN_FUEL_GIVER_01_05",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "tasksSettings",
+      "RU_13_01_NORTHERN_BRIDGE",
+      "stages",
+      0,
+      "actions",
+      "zoneToFill",
+      0,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_13_01 || RU_13_01_NORTHERN_BRIDGE_1",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "tasksSettings",
+      "RU_13_01_NOT_A_ROLLER_COASTER",
+      "stages",
+      0,
+      "actions",
+      "zoneToFill",
+      0,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_13_01 || RU_13_01_NOT_A_ROLLER_COASTER_DELIVERY",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "tasksSettings",
+      "RU_13_01_QUARRY_BLOCKAGE",
+      "stages",
+      0,
+      "actions",
+      "zoneToFill",
+      0,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_13_01 || RU_13_01_QUARRY_BLOCKAGE_1",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "tasksSettings",
+      "RU_13_01_QUARRY_BLOCKAGE",
+      "stages",
+      0,
+      "actions",
+      "zoneToFill",
+      1,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_13_01 || RU_13_01_QUARRY_BLOCKAGE_1",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "tasksSettings",
+      "RU_13_01_RELIABLE_SUPPORT_TASK",
+      "stages",
+      0,
+      "actions",
+      "zoneToFill",
+      0,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_13_01 || RU_13_01_RELIABLE_SUPPORT_DELIVERY_01",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "tasksSettings",
+      "RU_13_01_RELIABLE_SUPPORT_TASK",
+      "stages",
+      0,
+      "actions",
+      "zoneToFill",
+      1,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_13_01 || RU_13_01_RELIABLE_SUPPORT_DELIVERY_01",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "tasksSettings",
+      "RU_13_01_RELIABLE_SUPPORT_TASK",
+      "stages",
+      0,
+      "actions",
+      "zoneToFill",
+      2,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_13_01 || RU_13_01_RELIABLE_SUPPORT_DELIVERY_02",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "tasksSettings",
+      "RU_13_01_TRASH_EXPORT_TASK",
+      "stages",
+      0,
+      "actions",
+      "zoneToFill",
+      0,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_13_01 || RU_13_01_AERODROM_01_02",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "tasksSettings",
+      "RU_13_01_WATER_TOWER_REPAIR",
+      "stages",
+      0,
+      "actions",
+      "zoneToFill",
+      0,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_13_01 || RU_13_01_WATER_TOWER_REPAIR_END",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  },
+  {
+    "action": "set",
+    "path": [
+      "tasksSettings",
+      "RU_13_01_WATER_TOWER_REPAIR",
+      "stages",
+      0,
+      "actions",
+      "zoneToFill",
+      1,
+      "manualSettings"
+    ],
+    "before": {
+      "state": "absent"
+    },
+    "value": {
+      "json": {
+        "interactionZoneId": {
+          "globalZoneId": "level_ru_13_01 || RU_13_01_WATER_TOWER_REPAIR_END",
+          "__type": "ZoneGlobalIdentificator"
+        },
+        "isAutoLoadAllowed": true,
+        "__type": "CargoManualUnloadingSettings"
+      }
+    }
+  }
+]

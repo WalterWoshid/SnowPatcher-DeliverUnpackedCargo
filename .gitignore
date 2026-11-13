@@ -1,0 +1,9 @@
+# Build
+artifacts/
+
+# Game files
+*.pak
+*.sslbundle
+*.sslb
+*.cache_block
+*.zip

@@ -1,0 +1,1202 @@
+{
+  "authoringVersion": 1,
+  "id": "deliver-unpacked-cargo",
+  "name": "Deliver Unpacked Cargo - SnowPatcher Edition",
+  "version": "1.2.0",
+  "authors": [
+    "nakedDave",
+    "WalterWoshid (SnowPatcher conversion)"
+  ],
+  "description": "Original Deliver Unpacked Cargo mod by nakedDave. SnowPatcher package conversion by WalterWoshid. See README.md for credits and limitations.",
+  "modioUrl": "https://mod.io/g/snowrunner/m/deliver-unpacked-cargo-snowpatcher-edition",
+  "testedBuilds": [
+    "26218478"
+  ],
+  "include": [
+    "README.md"
+  ],
+  "targets": {
+    "level_ru_08_01_objects": {
+      "cache": "[ps]/level_ru_08_01_objects.sso"
+    },
+    "level_ru_08_02_objects": {
+      "cache": "[ps]/level_ru_08_02_objects.sso"
+    },
+    "level_ru_08_03_objects": {
+      "cache": "[ps]/level_ru_08_03_objects.sso"
+    },
+    "objective_settings": {
+      "cache": "[ps]/objective_settings.sso"
+    },
+    "ru_02_01_objects": {
+      "cache": "[ps]/ru_02_01_objects.sso"
+    },
+    "ru_02_02_barrels_delivery_cnt": {
+      "cache": "[ps]/ru_02_02_barrels_delivery_cnt.sso"
+    },
+    "ru_02_02_container_delivery_cnt": {
+      "cache": "[ps]/ru_02_02_container_delivery_cnt.sso"
+    },
+    "ru_02_02_farm_supply": {
+      "cache": "[ps]/ru_02_02_farm_supply.sso"
+    },
+    "ru_02_02_gorlag_cleaning": {
+      "cache": "[ps]/ru_02_02_gorlag_cleaning.sso"
+    },
+    "ru_02_02_hub_recovery_2": {
+      "cache": "[ps]/ru_02_02_hub_recovery_2.sso"
+    },
+    "ru_02_02_lost_cargo_02_tsk": {
+      "cache": "[ps]/ru_02_02_lost_cargo_02_tsk.sso"
+    },
+    "ru_02_02_lost_cargo_04_tsk": {
+      "cache": "[ps]/ru_02_02_lost_cargo_04_tsk.sso"
+    },
+    "ru_02_02_lost_cargo_05_tsk": {
+      "cache": "[ps]/ru_02_02_lost_cargo_05_tsk.sso"
+    },
+    "ru_02_02_mazut_delivery": {
+      "cache": "[ps]/ru_02_02_mazut_delivery.sso"
+    },
+    "ru_02_02_objects": {
+      "cache": "[ps]/ru_02_02_objects.sso"
+    },
+    "ru_02_02_radar_tower_recovery": {
+      "cache": "[ps]/ru_02_02_radar_tower_recovery.sso"
+    },
+    "ru_02_02_wooden_planks_delivery": {
+      "cache": "[ps]/ru_02_02_wooden_planks_delivery.sso"
+    },
+    "ru_02_03_objects": {
+      "cache": "[ps]/ru_02_03_objects.sso"
+    },
+    "ru_02_04_objects": {
+      "cache": "[ps]/ru_02_04_objects.sso"
+    },
+    "ru_03_01_objects": {
+      "cache": "[ps]/ru_03_01_objects.sso"
+    },
+    "ru_03_02_objects": {
+      "cache": "[ps]/ru_03_02_objects.sso"
+    },
+    "ru_04_01_objects": {
+      "cache": "[ps]/ru_04_01_objects.sso"
+    },
+    "ru_04_02_objects": {
+      "cache": "[ps]/ru_04_02_objects.sso"
+    },
+    "ru_04_03_objects": {
+      "cache": "[ps]/ru_04_03_objects.sso"
+    },
+    "ru_04_04_objects": {
+      "cache": "[ps]/ru_04_04_objects.sso"
+    },
+    "ru_05_01_objects": {
+      "cache": "[ps]/ru_05_01_objects.sso"
+    },
+    "ru_05_02_objects": {
+      "cache": "[ps]/ru_05_02_objects.sso"
+    },
+    "ru_08_04_objects": {
+      "cache": "[ps]/ru_08_04_objects.sso"
+    },
+    "ru_13_01_objects": {
+      "cache": "[ps]/ru_13_01_objects.sso"
+    },
+    "ru_17_01_objects": {
+      "cache": "[ps]/ru_17_01_objects.sso"
+    },
+    "ru_17_02_objects": {
+      "cache": "[ps]/ru_17_02_objects.sso"
+    },
+    "us_01_01_boatman__tools_delivery_tsk": {
+      "cache": "[ps]/us_01_01_boatman__tools_delivery_tsk.sso"
+    },
+    "us_01_01_build_a_bridge_obj": {
+      "cache": "[ps]/us_01_01_build_a_bridge_obj.sso"
+    },
+    "us_01_01_drilling_recovery_obj": {
+      "cache": "[ps]/us_01_01_drilling_recovery_obj.sso"
+    },
+    "us_01_01_factory_recovery_obj": {
+      "cache": "[ps]/us_01_01_factory_recovery_obj.sso"
+    },
+    "us_01_01_fallen_power_lines_tsk": {
+      "cache": "[ps]/us_01_01_fallen_power_lines_tsk.sso"
+    },
+    "us_01_01_food_delivery_cnt": {
+      "cache": "[ps]/us_01_01_food_delivery_cnt.sso"
+    },
+    "us_01_01_landslide_tsk": {
+      "cache": "[ps]/us_01_01_landslide_tsk.sso"
+    },
+    "us_01_01_lost_cargo_tsk": {
+      "cache": "[ps]/us_01_01_lost_cargo_tsk.sso"
+    },
+    "us_01_01_lost_containers_obj": {
+      "cache": "[ps]/us_01_01_lost_containers_obj.sso"
+    },
+    "us_01_01_road_blockage_tsk": {
+      "cache": "[ps]/us_01_01_road_blockage_tsk.sso"
+    },
+    "us_01_01_wooden_bridge_tsk": {
+      "cache": "[ps]/us_01_01_wooden_bridge_tsk.sso"
+    },
+    "us_01_02_barrels_delivery_tsk": {
+      "cache": "[ps]/us_01_02_barrels_delivery_tsk.sso"
+    },
+    "us_01_02_clean_the_river_east_tsk": {
+      "cache": "[ps]/us_01_02_clean_the_river_east_tsk.sso"
+    },
+    "us_01_02_clean_the_river_west_tsk": {
+      "cache": "[ps]/us_01_02_clean_the_river_west_tsk.sso"
+    },
+    "us_01_02_clear_rocks_01_tsk": {
+      "cache": "[ps]/us_01_02_clear_rocks_01_tsk.sso"
+    },
+    "us_01_02_drill_for_outcast_tsk": {
+      "cache": "[ps]/us_01_02_drill_for_outcast_tsk.sso"
+    },
+    "us_01_02_fallen_rocks_tsk": {
+      "cache": "[ps]/us_01_02_fallen_rocks_tsk.sso"
+    },
+    "us_01_02_farm_order_obj": {
+      "cache": "[ps]/us_01_02_farm_order_obj.sso"
+    },
+    "us_01_02_farmers_needs_cnt": {
+      "cache": "[ps]/us_01_02_farmers_needs_cnt.sso"
+    },
+    "us_01_02_flooded_house_cnt": {
+      "cache": "[ps]/us_01_02_flooded_house_cnt.sso"
+    },
+    "us_01_02_food_for_workers_tsk": {
+      "cache": "[ps]/us_01_02_food_for_workers_tsk.sso"
+    },
+    "us_01_02_fuel_order_obj": {
+      "cache": "[ps]/us_01_02_fuel_order_obj.sso"
+    },
+    "us_01_02_house_renovation_cnt": {
+      "cache": "[ps]/us_01_02_house_renovation_cnt.sso"
+    },
+    "us_01_02_lost_bags_tsk": {
+      "cache": "[ps]/us_01_02_lost_bags_tsk.sso"
+    },
+    "us_01_02_materials_order_obj": {
+      "cache": "[ps]/us_01_02_materials_order_obj.sso"
+    },
+    "us_01_02_resources_for_winter_obj": {
+      "cache": "[ps]/us_01_02_resources_for_winter_obj.sso"
+    },
+    "us_01_02_solid_foundation_tsk": {
+      "cache": "[ps]/us_01_02_solid_foundation_tsk.sso"
+    },
+    "us_01_02_wooden_bridge_tsk": {
+      "cache": "[ps]/us_01_02_wooden_bridge_tsk.sso"
+    },
+    "us_01_02_work_for_old_sweat_obj": {
+      "cache": "[ps]/us_01_02_work_for_old_sweat_obj.sso"
+    },
+    "us_01_03_power_wires_1_contract": {
+      "cache": "[ps]/us_01_03_power_wires_1_contract.sso"
+    },
+    "us_01_04_build_a_bridge_obj_1": {
+      "cache": "[ps]/us_01_04_build_a_bridge_obj_1.sso"
+    },
+    "us_01_04_build_a_bridge_obj_3": {
+      "cache": "[ps]/us_01_04_build_a_bridge_obj_3.sso"
+    },
+    "us_01_04_build_a_bridge_tsk_2": {
+      "cache": "[ps]/us_01_04_build_a_bridge_tsk_2.sso"
+    },
+    "us_01_04_cargo_delivering_obj": {
+      "cache": "[ps]/us_01_04_cargo_delivering_obj.sso"
+    },
+    "us_01_04_cargo_from_ship_obj": {
+      "cache": "[ps]/us_01_04_cargo_from_ship_obj.sso"
+    },
+    "us_01_04_fallen_cargo_tsk": {
+      "cache": "[ps]/us_01_04_fallen_cargo_tsk.sso"
+    },
+    "us_01_04_lost_cargo_tsk": {
+      "cache": "[ps]/us_01_04_lost_cargo_tsk.sso"
+    },
+    "us_01_04_multiorder_obj": {
+      "cache": "[ps]/us_01_04_multiorder_obj.sso"
+    },
+    "us_01_04_supplies_for_region_obj": {
+      "cache": "[ps]/us_01_04_supplies_for_region_obj.sso"
+    },
+    "us_02_01_barrels_obj": {
+      "cache": "[ps]/us_02_01_barrels_obj.sso"
+    },
+    "us_02_01_drill_delivery_obj": {
+      "cache": "[ps]/us_02_01_drill_delivery_obj.sso"
+    },
+    "us_02_01_objects": {
+      "cache": "[ps]/us_02_01_objects.sso"
+    },
+    "us_02_01_oil_delivery_02_obj": {
+      "cache": "[ps]/us_02_01_oil_delivery_02_obj.sso"
+    },
+    "us_02_01_oil_delivery_obj": {
+      "cache": "[ps]/us_02_01_oil_delivery_obj.sso"
+    },
+    "us_02_01_pipeline_obj": {
+      "cache": "[ps]/us_02_01_pipeline_obj.sso"
+    },
+    "us_02_01_polar_base_obj": {
+      "cache": "[ps]/us_02_01_polar_base_obj.sso"
+    },
+    "us_02_02_drilling_parts_obj": {
+      "cache": "[ps]/us_02_02_drilling_parts_obj.sso"
+    },
+    "us_02_02_mill_delivery_obj": {
+      "cache": "[ps]/us_02_02_mill_delivery_obj.sso"
+    },
+    "us_02_02_objects": {
+      "cache": "[ps]/us_02_02_objects.sso"
+    },
+    "us_02_02_pipeline_obj": {
+      "cache": "[ps]/us_02_02_pipeline_obj.sso"
+    },
+    "us_02_02_polar_base_obj": {
+      "cache": "[ps]/us_02_02_polar_base_obj.sso"
+    },
+    "us_02_02_tstop_delivery_obj": {
+      "cache": "[ps]/us_02_02_tstop_delivery_obj.sso"
+    },
+    "us_02_02_village_delivery_obj": {
+      "cache": "[ps]/us_02_02_village_delivery_obj.sso"
+    },
+    "us_02_03_crates_of_consumables_obj": {
+      "cache": "[ps]/us_02_03_crates_of_consumables_obj.sso"
+    },
+    "us_02_03_drill_delivery_obj": {
+      "cache": "[ps]/us_02_03_drill_delivery_obj.sso"
+    },
+    "us_02_03_mazut_obj": {
+      "cache": "[ps]/us_02_03_mazut_obj.sso"
+    },
+    "us_02_03_objects": {
+      "cache": "[ps]/us_02_03_objects.sso"
+    },
+    "us_02_03_pipeline_obj": {
+      "cache": "[ps]/us_02_03_pipeline_obj.sso"
+    },
+    "us_02_03_polar_base_obj": {
+      "cache": "[ps]/us_02_03_polar_base_obj.sso"
+    },
+    "us_02_03_town_delivery_obj": {
+      "cache": "[ps]/us_02_03_town_delivery_obj.sso"
+    },
+    "us_02_04_objects": {
+      "cache": "[ps]/us_02_04_objects.sso"
+    },
+    "us_03_01_objects": {
+      "cache": "[ps]/us_03_01_objects.sso"
+    },
+    "us_03_02_objects": {
+      "cache": "[ps]/us_03_02_objects.sso"
+    },
+    "us_04_01_objects": {
+      "cache": "[ps]/us_04_01_objects.sso"
+    },
+    "us_04_02_objects": {
+      "cache": "[ps]/us_04_02_objects.sso"
+    },
+    "us_06_01_objects": {
+      "cache": "[ps]/us_06_01_objects.sso"
+    },
+    "us_06_02_objects": {
+      "cache": "[ps]/us_06_02_objects.sso"
+    },
+    "us_07_01_objects": {
+      "cache": "[ps]/us_07_01_objects.sso"
+    },
+    "us_09_01_objects": {
+      "cache": "[ps]/us_09_01_objects.sso"
+    },
+    "us_09_02_objects": {
+      "cache": "[ps]/us_09_02_objects.sso"
+    },
+    "us_10_01_objects": {
+      "cache": "[ps]/us_10_01_objects.sso"
+    },
+    "us_10_02_objects": {
+      "cache": "[ps]/us_10_02_objects.sso"
+    },
+    "us_11_01_objects": {
+      "cache": "[ps]/us_11_01_objects.sso"
+    },
+    "us_11_02_objects": {
+      "cache": "[ps]/us_11_02_objects.sso"
+    },
+    "us_12_01_objects": {
+      "cache": "[ps]/us_12_01_objects.sso"
+    },
+    "us_12_02_objects": {
+      "cache": "[ps]/us_12_02_objects.sso"
+    },
+    "us_12_03_objects": {
+      "cache": "[ps]/us_12_03_objects.sso"
+    },
+    "us_12_04_objects": {
+      "cache": "[ps]/us_12_04_objects.sso"
+    },
+    "us_14_01_objects": {
+      "cache": "[ps]/us_14_01_objects.sso"
+    },
+    "us_14_02_objects": {
+      "cache": "[ps]/us_14_02_objects.sso"
+    },
+    "us_15_01_objects": {
+      "cache": "[ps]/us_15_01_objects.sso"
+    },
+    "us_15_02_objects": {
+      "cache": "[ps]/us_15_02_objects.sso"
+    },
+    "us_16_01_objects": {
+      "cache": "[ps]/us_16_01_objects.sso"
+    },
+    "us_16_02_objects": {
+      "cache": "[ps]/us_16_02_objects.sso"
+    },
+    "us_16_03_objects": {
+      "cache": "[ps]/us_16_03_objects.sso"
+    },
+    "us_18_01_objects": {
+      "cache": "[ps]/us_18_01_objects.sso"
+    },
+    "us_18_02_objects": {
+      "cache": "[ps]/us_18_02_objects.sso"
+    }
+  },
+  "operations": [
+    {
+      "id": "level-ru-08-01-objects",
+      "type": "sso.edit",
+      "target": "level_ru_08_01_objects",
+      "editsFile": "edits/level_ru_08_01_objects.json",
+      "beforeSha256": "9b6ab1dca4659ce6024a01ebc60bd9e86fd81b604a7d58cc8219a54580195f3b"
+    },
+    {
+      "id": "level-ru-08-02-objects",
+      "type": "sso.edit",
+      "target": "level_ru_08_02_objects",
+      "editsFile": "edits/level_ru_08_02_objects.json",
+      "beforeSha256": "cf20dff2f0bff72e4c8e36e953fab23fb3b25852bc62162a28bf0ace4dca2fa3"
+    },
+    {
+      "id": "level-ru-08-03-objects",
+      "type": "sso.edit",
+      "target": "level_ru_08_03_objects",
+      "editsFile": "edits/level_ru_08_03_objects.json",
+      "beforeSha256": "c21d424aa1fc663ccf11cfd6df0b6c4f66d3192d187c5b1e6247d20d2b18358d"
+    },
+    {
+      "id": "objective-settings",
+      "type": "sso.edit",
+      "target": "objective_settings",
+      "editsFile": "edits/objective_settings.json",
+      "beforeSha256": "54e71ae84d346d7431375649d7e46b1690a4cf6d856c448ddd56e639426d2d33"
+    },
+    {
+      "id": "ru-02-01-objects",
+      "type": "sso.edit",
+      "target": "ru_02_01_objects",
+      "editsFile": "edits/ru_02_01_objects.json",
+      "beforeSha256": "4b72ed982daf9867e390b297501ee65f55724e0c65a62e096dfca5c074a50ecc"
+    },
+    {
+      "id": "ru-02-02-barrels-delivery-cnt",
+      "type": "sso.edit",
+      "target": "ru_02_02_barrels_delivery_cnt",
+      "editsFile": "edits/ru_02_02_barrels_delivery_cnt.json",
+      "beforeSha256": "75772a7fb2978a1c26ab16df9bb19c2651af049fa0c685515891a83b20236298"
+    },
+    {
+      "id": "ru-02-02-container-delivery-cnt",
+      "type": "sso.edit",
+      "target": "ru_02_02_container_delivery_cnt",
+      "editsFile": "edits/ru_02_02_container_delivery_cnt.json",
+      "beforeSha256": "f4bc24ce20c8aa53a4ff00c9cdb23c0aac57118328bd8b9213a3efea67fc3fed"
+    },
+    {
+      "id": "ru-02-02-farm-supply",
+      "type": "sso.edit",
+      "target": "ru_02_02_farm_supply",
+      "editsFile": "edits/ru_02_02_farm_supply.json",
+      "beforeSha256": "de150039ea9f50ed9abf2ba89940735696a2ef3e272f78b64892af0fdb2d1c76"
+    },
+    {
+      "id": "ru-02-02-gorlag-cleaning",
+      "type": "sso.edit",
+      "target": "ru_02_02_gorlag_cleaning",
+      "editsFile": "edits/ru_02_02_gorlag_cleaning.json",
+      "beforeSha256": "7d2ca51fc8d6dba4bcee4a6b7f9458fa06aa1bc672f701706901fc01bb534360"
+    },
+    {
+      "id": "ru-02-02-hub-recovery-2",
+      "type": "sso.edit",
+      "target": "ru_02_02_hub_recovery_2",
+      "editsFile": "edits/ru_02_02_hub_recovery_2.json",
+      "beforeSha256": "66ef36463f2312033f4df3a807f8562de95ee4dc79605a04909bca947d44c1fd"
+    },
+    {
+      "id": "ru-02-02-lost-cargo-02-tsk",
+      "type": "sso.edit",
+      "target": "ru_02_02_lost_cargo_02_tsk",
+      "editsFile": "edits/ru_02_02_lost_cargo_02_tsk.json",
+      "beforeSha256": "88ec209b37b62ff071b221f87a5199bc240364ac18d07932a5a04bdbd504b2d2"
+    },
+    {
+      "id": "ru-02-02-lost-cargo-04-tsk",
+      "type": "sso.edit",
+      "target": "ru_02_02_lost_cargo_04_tsk",
+      "editsFile": "edits/ru_02_02_lost_cargo_04_tsk.json",
+      "beforeSha256": "df5bba4090cec57acc6bf222e6e5c0e4c8182786a4912118bc335cfdd5547479"
+    },
+    {
+      "id": "ru-02-02-lost-cargo-05-tsk",
+      "type": "sso.edit",
+      "target": "ru_02_02_lost_cargo_05_tsk",
+      "editsFile": "edits/ru_02_02_lost_cargo_05_tsk.json",
+      "beforeSha256": "85cd386b3e7d8a03102b016ec211b374d68a1c480b6f62608cf8a3a67066edb9"
+    },
+    {
+      "id": "ru-02-02-mazut-delivery",
+      "type": "sso.edit",
+      "target": "ru_02_02_mazut_delivery",
+      "editsFile": "edits/ru_02_02_mazut_delivery.json",
+      "beforeSha256": "cdba2672bb0ceda492cccda002b8e648ef52e18254d95a43e6c99c5f2439907f"
+    },
+    {
+      "id": "ru-02-02-objects",
+      "type": "sso.edit",
+      "target": "ru_02_02_objects",
+      "editsFile": "edits/ru_02_02_objects.json",
+      "beforeSha256": "94a3cfeacfc6d93dbba65b0ca18e171ee083de600b40d27e9ff067e1460bf489"
+    },
+    {
+      "id": "ru-02-02-radar-tower-recovery",
+      "type": "sso.edit",
+      "target": "ru_02_02_radar_tower_recovery",
+      "editsFile": "edits/ru_02_02_radar_tower_recovery.json",
+      "beforeSha256": "84d4da45b17f47d1fc29bd0a8af2115a1629861d83b4111a9743166e1a08a1b8"
+    },
+    {
+      "id": "ru-02-02-wooden-planks-delivery",
+      "type": "sso.edit",
+      "target": "ru_02_02_wooden_planks_delivery",
+      "editsFile": "edits/ru_02_02_wooden_planks_delivery.json",
+      "beforeSha256": "f6f7baf1cbe09ee7a18ad6bfd57849c65d13f6bd83ed76de1b0c7ba6e6bf711b"
+    },
+    {
+      "id": "ru-02-03-objects",
+      "type": "sso.edit",
+      "target": "ru_02_03_objects",
+      "editsFile": "edits/ru_02_03_objects.json",
+      "beforeSha256": "d2e64daf32608733edc6dc3ad328fdddb3573597b66f9a0e70a09ae557ba947d"
+    },
+    {
+      "id": "ru-02-04-objects",
+      "type": "sso.edit",
+      "target": "ru_02_04_objects",
+      "editsFile": "edits/ru_02_04_objects.json",
+      "beforeSha256": "0eeb155ca3ea9b74deda154c2151f5f2c100fad4520f9e7171d99209de08ef18"
+    },
+    {
+      "id": "ru-03-01-objects",
+      "type": "sso.edit",
+      "target": "ru_03_01_objects",
+      "editsFile": "edits/ru_03_01_objects.json",
+      "beforeSha256": "ec7c6cdffc5ceaeaa2d22fb34ec9e64fbb969ae5021b2baac0ac5646963f11f5"
+    },
+    {
+      "id": "ru-03-02-objects",
+      "type": "sso.edit",
+      "target": "ru_03_02_objects",
+      "editsFile": "edits/ru_03_02_objects.json",
+      "beforeSha256": "248c611c97afeb0eba34b7e5cef3d128c94687b4ab7f8daabfbb80918b4fbe55"
+    },
+    {
+      "id": "ru-04-01-objects",
+      "type": "sso.edit",
+      "target": "ru_04_01_objects",
+      "editsFile": "edits/ru_04_01_objects.json",
+      "beforeSha256": "ede0cdd481b44b1ef478c627b7cbdb7bcf0bbc4deeed49b7e6bef1d1680a8542"
+    },
+    {
+      "id": "ru-04-02-objects",
+      "type": "sso.edit",
+      "target": "ru_04_02_objects",
+      "editsFile": "edits/ru_04_02_objects.json",
+      "beforeSha256": "934aae3590288f2a3ecd15cf40675b9fb8005ef21a4af43a36285c0f3e6aeebf"
+    },
+    {
+      "id": "ru-04-03-objects",
+      "type": "sso.edit",
+      "target": "ru_04_03_objects",
+      "editsFile": "edits/ru_04_03_objects.json",
+      "beforeSha256": "ff129fd27d06f8a278af2c1cdb4f492017038eed60b4ec1c19e3246ee8272a8a"
+    },
+    {
+      "id": "ru-04-04-objects",
+      "type": "sso.edit",
+      "target": "ru_04_04_objects",
+      "editsFile": "edits/ru_04_04_objects.json",
+      "beforeSha256": "6f0c56b37a4f26041199c672c05d9836586136db8f0a39ab6ba56a781604d6f9"
+    },
+    {
+      "id": "ru-05-01-objects",
+      "type": "sso.edit",
+      "target": "ru_05_01_objects",
+      "editsFile": "edits/ru_05_01_objects.json",
+      "beforeSha256": "034d8b5607eff9bcd72b908f2d1d97053b3954a3dd941d628989c68855200764"
+    },
+    {
+      "id": "ru-05-02-objects",
+      "type": "sso.edit",
+      "target": "ru_05_02_objects",
+      "editsFile": "edits/ru_05_02_objects.json",
+      "beforeSha256": "0048dcad35fd86c76388febdd5d64f9acba1fe83735e3ee4d2d6da1788aeb853"
+    },
+    {
+      "id": "ru-08-04-objects",
+      "type": "sso.edit",
+      "target": "ru_08_04_objects",
+      "editsFile": "edits/ru_08_04_objects.json",
+      "beforeSha256": "36236fc699f56fda505b54cd59d4565464451053b65a83e03ddfb28ffa69c30a"
+    },
+    {
+      "id": "ru-13-01-objects",
+      "type": "sso.edit",
+      "target": "ru_13_01_objects",
+      "editsFile": "edits/ru_13_01_objects.json",
+      "beforeSha256": "96ff0b6ce9dc4f056ee7df9477304b3e2aca8f6671e4d98eeb0330a3a40abd62"
+    },
+    {
+      "id": "ru-17-01-objects",
+      "type": "sso.edit",
+      "target": "ru_17_01_objects",
+      "editsFile": "edits/ru_17_01_objects.json",
+      "beforeSha256": "5579f6f28dfe1c5bf3524aac12426c59c909ba9a6c50057eac78e848539e9369"
+    },
+    {
+      "id": "ru-17-02-objects",
+      "type": "sso.edit",
+      "target": "ru_17_02_objects",
+      "editsFile": "edits/ru_17_02_objects.json",
+      "beforeSha256": "e20124818c85d0b6608ee0beb402dc102304a233288c6c13103dedbf31384ce3"
+    },
+    {
+      "id": "us-01-01-boatman-tools-delivery-tsk",
+      "type": "sso.edit",
+      "target": "us_01_01_boatman__tools_delivery_tsk",
+      "editsFile": "edits/us_01_01_boatman__tools_delivery_tsk.json",
+      "beforeSha256": "82bf4b528c318980cb34e34ff12cef2c248f40ffdd22ed7790e0e9406044c34c"
+    },
+    {
+      "id": "us-01-01-build-a-bridge-obj",
+      "type": "sso.edit",
+      "target": "us_01_01_build_a_bridge_obj",
+      "editsFile": "edits/us_01_01_build_a_bridge_obj.json",
+      "beforeSha256": "7117163f37da816f121b3bf582001cd75bf1cf4d2ea9eeee0fb98015cdedc3f2"
+    },
+    {
+      "id": "us-01-01-drilling-recovery-obj",
+      "type": "sso.edit",
+      "target": "us_01_01_drilling_recovery_obj",
+      "editsFile": "edits/us_01_01_drilling_recovery_obj.json",
+      "beforeSha256": "70126f47c852a7f014b4d4e922c488c50c2b3879f3a719a4f9cf76bb66b7c02f"
+    },
+    {
+      "id": "us-01-01-factory-recovery-obj",
+      "type": "sso.edit",
+      "target": "us_01_01_factory_recovery_obj",
+      "editsFile": "edits/us_01_01_factory_recovery_obj.json",
+      "beforeSha256": "54a2cab511d2f785cd7ef9e25903b32fb562be11f0265792700a83d6ee8636f0"
+    },
+    {
+      "id": "us-01-01-fallen-power-lines-tsk",
+      "type": "sso.edit",
+      "target": "us_01_01_fallen_power_lines_tsk",
+      "editsFile": "edits/us_01_01_fallen_power_lines_tsk.json",
+      "beforeSha256": "a4926d77cdd34bb1705148de5df811886f2873ee10a081f236474f1cdddf624f"
+    },
+    {
+      "id": "us-01-01-food-delivery-cnt",
+      "type": "sso.edit",
+      "target": "us_01_01_food_delivery_cnt",
+      "editsFile": "edits/us_01_01_food_delivery_cnt.json",
+      "beforeSha256": "fe68688f1042ecd2918ae477d168923ae88c9888abbd4c32397ae60abf551eff"
+    },
+    {
+      "id": "us-01-01-landslide-tsk",
+      "type": "sso.edit",
+      "target": "us_01_01_landslide_tsk",
+      "editsFile": "edits/us_01_01_landslide_tsk.json",
+      "beforeSha256": "7337213afcbab77cf59e118ab12c19fd1e4b3fa6202965aad934e2fe1a078151"
+    },
+    {
+      "id": "us-01-01-lost-cargo-tsk",
+      "type": "sso.edit",
+      "target": "us_01_01_lost_cargo_tsk",
+      "editsFile": "edits/us_01_01_lost_cargo_tsk.json",
+      "beforeSha256": "1deb283e66733f5083a2d74441f62f1b31b4c4881edfd469bdea651e9899b59e"
+    },
+    {
+      "id": "us-01-01-lost-containers-obj",
+      "type": "sso.edit",
+      "target": "us_01_01_lost_containers_obj",
+      "editsFile": "edits/us_01_01_lost_containers_obj.json",
+      "beforeSha256": "751b49e440e31c45641bf385e1c4673f0346ad6cbb21fa928befded8699442b7"
+    },
+    {
+      "id": "us-01-01-road-blockage-tsk",
+      "type": "sso.edit",
+      "target": "us_01_01_road_blockage_tsk",
+      "editsFile": "edits/us_01_01_road_blockage_tsk.json",
+      "beforeSha256": "4bc8013de6d438160bbd7d6282adac7401540045184eaef2fe48f5a4a34b8467"
+    },
+    {
+      "id": "us-01-01-wooden-bridge-tsk",
+      "type": "sso.edit",
+      "target": "us_01_01_wooden_bridge_tsk",
+      "editsFile": "edits/us_01_01_wooden_bridge_tsk.json",
+      "beforeSha256": "52e255a4f4466ae3b23cbec01d3882aad70d469f32c7715b3342b4145c4bebbc"
+    },
+    {
+      "id": "us-01-02-barrels-delivery-tsk",
+      "type": "sso.edit",
+      "target": "us_01_02_barrels_delivery_tsk",
+      "editsFile": "edits/us_01_02_barrels_delivery_tsk.json",
+      "beforeSha256": "85b2ebcd7195298cf9bb470f9002a42494e93e827312f52098fdec88668d6b45"
+    },
+    {
+      "id": "us-01-02-clean-the-river-east-tsk",
+      "type": "sso.edit",
+      "target": "us_01_02_clean_the_river_east_tsk",
+      "editsFile": "edits/us_01_02_clean_the_river_east_tsk.json",
+      "beforeSha256": "922731d8542b6c077f93158958dcb167bd2035eff17ac002418d74cc70055ac5"
+    },
+    {
+      "id": "us-01-02-clean-the-river-west-tsk",
+      "type": "sso.edit",
+      "target": "us_01_02_clean_the_river_west_tsk",
+      "editsFile": "edits/us_01_02_clean_the_river_west_tsk.json",
+      "beforeSha256": "0d30bb120517c3e2b0c361dc2200727816f17e82bf0cc062d80ecb69a64e5fd4"
+    },
+    {
+      "id": "us-01-02-clear-rocks-01-tsk",
+      "type": "sso.edit",
+      "target": "us_01_02_clear_rocks_01_tsk",
+      "editsFile": "edits/us_01_02_clear_rocks_01_tsk.json",
+      "beforeSha256": "e5e0d9f36fff4c7dc879f1d477b88bcaab7392054f02fa9431e7a415f5806ed5"
+    },
+    {
+      "id": "us-01-02-drill-for-outcast-tsk",
+      "type": "sso.edit",
+      "target": "us_01_02_drill_for_outcast_tsk",
+      "editsFile": "edits/us_01_02_drill_for_outcast_tsk.json",
+      "beforeSha256": "510e7fc9a9c944aed6bcf373cdf2f82bb5cecd9a07e0129623ecfece5959aab4"
+    },
+    {
+      "id": "us-01-02-fallen-rocks-tsk",
+      "type": "sso.edit",
+      "target": "us_01_02_fallen_rocks_tsk",
+      "editsFile": "edits/us_01_02_fallen_rocks_tsk.json",
+      "beforeSha256": "033841482a6e6a53ad2ca3b3c67edcc0f7d27d220a99580eeb0d76ddaf1c1aea"
+    },
+    {
+      "id": "us-01-02-farm-order-obj",
+      "type": "sso.edit",
+      "target": "us_01_02_farm_order_obj",
+      "editsFile": "edits/us_01_02_farm_order_obj.json",
+      "beforeSha256": "36793601bc81b4f53013d0bf81bb640cf31658f493cecc2fb0b6da8d30e7df18"
+    },
+    {
+      "id": "us-01-02-farmers-needs-cnt",
+      "type": "sso.edit",
+      "target": "us_01_02_farmers_needs_cnt",
+      "editsFile": "edits/us_01_02_farmers_needs_cnt.json",
+      "beforeSha256": "d02f965db117778b0d8566f1630dec4df5faf7cbfc5ba2f946de048181c52eb1"
+    },
+    {
+      "id": "us-01-02-flooded-house-cnt",
+      "type": "sso.edit",
+      "target": "us_01_02_flooded_house_cnt",
+      "editsFile": "edits/us_01_02_flooded_house_cnt.json",
+      "beforeSha256": "1e816a16366f3ab922d8b6a5f9fb6bbc46924b225cc3204dfda4abb4c29716e3"
+    },
+    {
+      "id": "us-01-02-food-for-workers-tsk",
+      "type": "sso.edit",
+      "target": "us_01_02_food_for_workers_tsk",
+      "editsFile": "edits/us_01_02_food_for_workers_tsk.json",
+      "beforeSha256": "956b47e05692e22c9a3a0ec8b2dbae2ca89ab132025869278eb970798d60a082"
+    },
+    {
+      "id": "us-01-02-fuel-order-obj",
+      "type": "sso.edit",
+      "target": "us_01_02_fuel_order_obj",
+      "editsFile": "edits/us_01_02_fuel_order_obj.json",
+      "beforeSha256": "c943507e224fd10efcbb55093790f6482bcbea7749134cd7d8c6014db4a1caff"
+    },
+    {
+      "id": "us-01-02-house-renovation-cnt",
+      "type": "sso.edit",
+      "target": "us_01_02_house_renovation_cnt",
+      "editsFile": "edits/us_01_02_house_renovation_cnt.json",
+      "beforeSha256": "49f28a191504cf24ea6f8879afe44f7893700a02eb72b8580aae0d86f90f617b"
+    },
+    {
+      "id": "us-01-02-lost-bags-tsk",
+      "type": "sso.edit",
+      "target": "us_01_02_lost_bags_tsk",
+      "editsFile": "edits/us_01_02_lost_bags_tsk.json",
+      "beforeSha256": "828d1ec77381b47f4037424dd94fd45ccc9b6b198b24cea31d19fe6167e00cb6"
+    },
+    {
+      "id": "us-01-02-materials-order-obj",
+      "type": "sso.edit",
+      "target": "us_01_02_materials_order_obj",
+      "editsFile": "edits/us_01_02_materials_order_obj.json",
+      "beforeSha256": "ad1f77a264e02d152e522538cd0ff9d2ac7d507baab116ef31723e70f1be0041"
+    },
+    {
+      "id": "us-01-02-resources-for-winter-obj",
+      "type": "sso.edit",
+      "target": "us_01_02_resources_for_winter_obj",
+      "editsFile": "edits/us_01_02_resources_for_winter_obj.json",
+      "beforeSha256": "897b5009208d5550416ffa420c34883644ab4c997b1cd195130cab68fd1d5a47"
+    },
+    {
+      "id": "us-01-02-solid-foundation-tsk",
+      "type": "sso.edit",
+      "target": "us_01_02_solid_foundation_tsk",
+      "editsFile": "edits/us_01_02_solid_foundation_tsk.json",
+      "beforeSha256": "ecf315045b8ea1baeb609dea08934489d4c9f9acac8c79b5a864dd531c728abc"
+    },
+    {
+      "id": "us-01-02-wooden-bridge-tsk",
+      "type": "sso.edit",
+      "target": "us_01_02_wooden_bridge_tsk",
+      "editsFile": "edits/us_01_02_wooden_bridge_tsk.json",
+      "beforeSha256": "5efb36c75c707cba127aa52b77410575be0f2a7bbe20edd4b8aecac47e0fdb41"
+    },
+    {
+      "id": "us-01-02-work-for-old-sweat-obj",
+      "type": "sso.edit",
+      "target": "us_01_02_work_for_old_sweat_obj",
+      "editsFile": "edits/us_01_02_work_for_old_sweat_obj.json",
+      "beforeSha256": "f2fd46a1dd96192085ac24ae9f46c43151c4b4325a27953c866af731524d7363"
+    },
+    {
+      "id": "us-01-03-power-wires-1-contract",
+      "type": "sso.edit",
+      "target": "us_01_03_power_wires_1_contract",
+      "editsFile": "edits/us_01_03_power_wires_1_contract.json",
+      "beforeSha256": "0b8405563a1aa1da81bab88127f8de815dcba57549178a3b23574090fe0dac1e"
+    },
+    {
+      "id": "us-01-04-build-a-bridge-obj-1",
+      "type": "sso.edit",
+      "target": "us_01_04_build_a_bridge_obj_1",
+      "editsFile": "edits/us_01_04_build_a_bridge_obj_1.json",
+      "beforeSha256": "0388b34b513a95a08ae6860974af686e79201af1f077f4ab99ce783108f5d73d"
+    },
+    {
+      "id": "us-01-04-build-a-bridge-obj-3",
+      "type": "sso.edit",
+      "target": "us_01_04_build_a_bridge_obj_3",
+      "editsFile": "edits/us_01_04_build_a_bridge_obj_3.json",
+      "beforeSha256": "5cdb9e9ae3051f04d57b7ca9e814c485c2758670b1b77974677f3f51efbd03bc"
+    },
+    {
+      "id": "us-01-04-build-a-bridge-tsk-2",
+      "type": "sso.edit",
+      "target": "us_01_04_build_a_bridge_tsk_2",
+      "editsFile": "edits/us_01_04_build_a_bridge_tsk_2.json",
+      "beforeSha256": "a740c5c7df5ec46c083d9e75eaadaf0b5b3f6d9b961736377b5d024f3df22b03"
+    },
+    {
+      "id": "us-01-04-cargo-delivering-obj",
+      "type": "sso.edit",
+      "target": "us_01_04_cargo_delivering_obj",
+      "editsFile": "edits/us_01_04_cargo_delivering_obj.json",
+      "beforeSha256": "955ff17c0325066149ebbf48ddb3bfa3fafa0eb7eb2c74e8cd5dc42c8ab5b190"
+    },
+    {
+      "id": "us-01-04-cargo-from-ship-obj",
+      "type": "sso.edit",
+      "target": "us_01_04_cargo_from_ship_obj",
+      "editsFile": "edits/us_01_04_cargo_from_ship_obj.json",
+      "beforeSha256": "043013a9eefb64369abda19f32daadd51b34de813be322280a0d84a1622080a9"
+    },
+    {
+      "id": "us-01-04-fallen-cargo-tsk",
+      "type": "sso.edit",
+      "target": "us_01_04_fallen_cargo_tsk",
+      "editsFile": "edits/us_01_04_fallen_cargo_tsk.json",
+      "beforeSha256": "37094ea901ad509a79cf68d07f3708d007862951cd1f03fa61e1599ab309ba19"
+    },
+    {
+      "id": "us-01-04-lost-cargo-tsk",
+      "type": "sso.edit",
+      "target": "us_01_04_lost_cargo_tsk",
+      "editsFile": "edits/us_01_04_lost_cargo_tsk.json",
+      "beforeSha256": "4d238cf38ee06be1257a6a087ef885bc86535da0bb07efb93153e7ca49d95abc"
+    },
+    {
+      "id": "us-01-04-multiorder-obj",
+      "type": "sso.edit",
+      "target": "us_01_04_multiorder_obj",
+      "editsFile": "edits/us_01_04_multiorder_obj.json",
+      "beforeSha256": "102a27d9cfd773307fefaf3b88bce5703bafc6818f9d570a898ca0b6c4c3ca58"
+    },
+    {
+      "id": "us-01-04-supplies-for-region-obj",
+      "type": "sso.edit",
+      "target": "us_01_04_supplies_for_region_obj",
+      "editsFile": "edits/us_01_04_supplies_for_region_obj.json",
+      "beforeSha256": "7e26b5fe0c0d295b1bc9fb7091e95b8ef37d594994298cafbe67bf87ddae2b8d"
+    },
+    {
+      "id": "us-02-01-barrels-obj",
+      "type": "sso.edit",
+      "target": "us_02_01_barrels_obj",
+      "editsFile": "edits/us_02_01_barrels_obj.json",
+      "beforeSha256": "275fea77694374cc3c85fd115e04dbf7c12ecc56be30e89c74b1e7c78f050e8b"
+    },
+    {
+      "id": "us-02-01-drill-delivery-obj",
+      "type": "sso.edit",
+      "target": "us_02_01_drill_delivery_obj",
+      "editsFile": "edits/us_02_01_drill_delivery_obj.json",
+      "beforeSha256": "0df9ed0f0ddd1eb2eb533584a40a5a69550ff39cabd6b24be00a4875a8234ff9"
+    },
+    {
+      "id": "us-02-01-objects",
+      "type": "sso.edit",
+      "target": "us_02_01_objects",
+      "editsFile": "edits/us_02_01_objects.json",
+      "beforeSha256": "481517aeabfd14638532c6cab0ce6ba291f78539c9ca8097f1f9cb1031bc45d5"
+    },
+    {
+      "id": "us-02-01-oil-delivery-02-obj",
+      "type": "sso.edit",
+      "target": "us_02_01_oil_delivery_02_obj",
+      "editsFile": "edits/us_02_01_oil_delivery_02_obj.json",
+      "beforeSha256": "990cca87c120ff6b52c69499fd4d75ad3e21f23caf11adbad6cdca03cdc5d058"
+    },
+    {
+      "id": "us-02-01-oil-delivery-obj",
+      "type": "sso.edit",
+      "target": "us_02_01_oil_delivery_obj",
+      "editsFile": "edits/us_02_01_oil_delivery_obj.json",
+      "beforeSha256": "dabe6a133d46e432619f66a1547598eb884c2ba00af964cdfd6d58239db2679b"
+    },
+    {
+      "id": "us-02-01-pipeline-obj",
+      "type": "sso.edit",
+      "target": "us_02_01_pipeline_obj",
+      "editsFile": "edits/us_02_01_pipeline_obj.json",
+      "beforeSha256": "867d5722cf77e5da8629470588f329d5e5686d33bc65b7fb3e67bcc9c199abaf"
+    },
+    {
+      "id": "us-02-01-polar-base-obj",
+      "type": "sso.edit",
+      "target": "us_02_01_polar_base_obj",
+      "editsFile": "edits/us_02_01_polar_base_obj.json",
+      "beforeSha256": "b1c4cc762a73a49994f4ed583b726476ed616c6dc2e801760d1031ed479477fd"
+    },
+    {
+      "id": "us-02-02-drilling-parts-obj",
+      "type": "sso.edit",
+      "target": "us_02_02_drilling_parts_obj",
+      "editsFile": "edits/us_02_02_drilling_parts_obj.json",
+      "beforeSha256": "f6ab64f0f28c9ed5c16e2c594d1f16bb9bcbc956cf15cc6ecabf86bb959e0f23"
+    },
+    {
+      "id": "us-02-02-mill-delivery-obj",
+      "type": "sso.edit",
+      "target": "us_02_02_mill_delivery_obj",
+      "editsFile": "edits/us_02_02_mill_delivery_obj.json",
+      "beforeSha256": "689578806686c9d44c4b2879edc6e0efec525385e6a97ebad59418cc37a6aafb"
+    },
+    {
+      "id": "us-02-02-objects",
+      "type": "sso.edit",
+      "target": "us_02_02_objects",
+      "editsFile": "edits/us_02_02_objects.json",
+      "beforeSha256": "5c6750f0fdf170e603183da394b71cf8e80b54a9e28eefadb355e5cae2553781"
+    },
+    {
+      "id": "us-02-02-pipeline-obj",
+      "type": "sso.edit",
+      "target": "us_02_02_pipeline_obj",
+      "editsFile": "edits/us_02_02_pipeline_obj.json",
+      "beforeSha256": "0362216cd056a2b84b96411439b4711be0f6c50aad4fcf504e18ac11a1c77ad1"
+    },
+    {
+      "id": "us-02-02-polar-base-obj",
+      "type": "sso.edit",
+      "target": "us_02_02_polar_base_obj",
+      "editsFile": "edits/us_02_02_polar_base_obj.json",
+      "beforeSha256": "9a4bb593e6093e4e78b26b25635e2130e6a93ff28677fb986f82866b4fb14b6e"
+    },
+    {
+      "id": "us-02-02-tstop-delivery-obj",
+      "type": "sso.edit",
+      "target": "us_02_02_tstop_delivery_obj",
+      "editsFile": "edits/us_02_02_tstop_delivery_obj.json",
+      "beforeSha256": "9bbaa8580c4518813262162937f0f386f7d59e72d4762a317bd4316dffb8abd2"
+    },
+    {
+      "id": "us-02-02-village-delivery-obj",
+      "type": "sso.edit",
+      "target": "us_02_02_village_delivery_obj",
+      "editsFile": "edits/us_02_02_village_delivery_obj.json",
+      "beforeSha256": "79d7a7b4343de588d174b2e7d9b9e41cdc6ef3f85f620e3e5eb3d215afd4ed03"
+    },
+    {
+      "id": "us-02-03-crates-of-consumables-obj",
+      "type": "sso.edit",
+      "target": "us_02_03_crates_of_consumables_obj",
+      "editsFile": "edits/us_02_03_crates_of_consumables_obj.json",
+      "beforeSha256": "9563ab39c1458b33306d718ddfc4be9f850b8d82956bb2e90f2c91bbec3f15e0"
+    },
+    {
+      "id": "us-02-03-drill-delivery-obj",
+      "type": "sso.edit",
+      "target": "us_02_03_drill_delivery_obj",
+      "editsFile": "edits/us_02_03_drill_delivery_obj.json",
+      "beforeSha256": "b1392393586ecf785fb9f47ef927aa870a2a761e72fafe995390742c1871e3c7"
+    },
+    {
+      "id": "us-02-03-mazut-obj",
+      "type": "sso.edit",
+      "target": "us_02_03_mazut_obj",
+      "editsFile": "edits/us_02_03_mazut_obj.json",
+      "beforeSha256": "3da1cb0068bdd1a031f5de7bbfdf69388e5445f1d4174f11cde9433bbb1ea29a"
+    },
+    {
+      "id": "us-02-03-objects",
+      "type": "sso.edit",
+      "target": "us_02_03_objects",
+      "editsFile": "edits/us_02_03_objects.json",
+      "beforeSha256": "0e89030839a2ca7ef9341e03d2fa440fcb41940a5efcb36eb6c8787291aa0058"
+    },
+    {
+      "id": "us-02-03-pipeline-obj",
+      "type": "sso.edit",
+      "target": "us_02_03_pipeline_obj",
+      "editsFile": "edits/us_02_03_pipeline_obj.json",
+      "beforeSha256": "6ee393cf8cd64dd6c0ba936922c56e333792e195998037ec17cf581459903445"
+    },
+    {
+      "id": "us-02-03-polar-base-obj",
+      "type": "sso.edit",
+      "target": "us_02_03_polar_base_obj",
+      "editsFile": "edits/us_02_03_polar_base_obj.json",
+      "beforeSha256": "b93236e95dee78de3b041083329cbb316dc37e8d47c916ec6ffd8969e51e4c88"
+    },
+    {
+      "id": "us-02-03-town-delivery-obj",
+      "type": "sso.edit",
+      "target": "us_02_03_town_delivery_obj",
+      "editsFile": "edits/us_02_03_town_delivery_obj.json",
+      "beforeSha256": "d5df61da00a35deeba87b2b2466d6d7922c738b36976615d35e2cec7acb5ee84"
+    },
+    {
+      "id": "us-02-04-objects",
+      "type": "sso.edit",
+      "target": "us_02_04_objects",
+      "editsFile": "edits/us_02_04_objects.json",
+      "beforeSha256": "5bab58b51ae29511107de539fb8b3922d6070be3d71d45b7a6c72652fe59206b"
+    },
+    {
+      "id": "us-03-01-objects",
+      "type": "sso.edit",
+      "target": "us_03_01_objects",
+      "editsFile": "edits/us_03_01_objects.json",
+      "beforeSha256": "4c9a7a952d134f1fa93a1fd9217f976a542314b42aa81223c942080aa623a4d7"
+    },
+    {
+      "id": "us-03-02-objects",
+      "type": "sso.edit",
+      "target": "us_03_02_objects",
+      "editsFile": "edits/us_03_02_objects.json",
+      "beforeSha256": "9033fa4c483ca84b495b3d0819a1a3bc05ea4ce621e6668a26ad038aa6c96eaf"
+    },
+    {
+      "id": "us-04-01-objects",
+      "type": "sso.edit",
+      "target": "us_04_01_objects",
+      "editsFile": "edits/us_04_01_objects.json",
+      "beforeSha256": "7c835f0870688aba3e7d74886ece009a6a654e8079478ec9ea712fe71662663f"
+    },
+    {
+      "id": "us-04-02-objects",
+      "type": "sso.edit",
+      "target": "us_04_02_objects",
+      "editsFile": "edits/us_04_02_objects.json",
+      "beforeSha256": "f0323399623c6f8df39cf21f2b4cb9adc20f864bb4e83b3ab9b1b5ae6c8b42ea"
+    },
+    {
+      "id": "us-06-01-objects",
+      "type": "sso.edit",
+      "target": "us_06_01_objects",
+      "editsFile": "edits/us_06_01_objects.json",
+      "beforeSha256": "e3bb4b700c086fe3d95cfb9ab9b88d87f1fdd00aab41695ad6c043ded94d8b5b"
+    },
+    {
+      "id": "us-06-02-objects",
+      "type": "sso.edit",
+      "target": "us_06_02_objects",
+      "editsFile": "edits/us_06_02_objects.json",
+      "beforeSha256": "95f79f0a88938c7593306125ca8445e3ad7052c2c1c2d456bf81b6d8268b2405"
+    },
+    {
+      "id": "us-07-01-objects",
+      "type": "sso.edit",
+      "target": "us_07_01_objects",
+      "editsFile": "edits/us_07_01_objects.json",
+      "beforeSha256": "031743f5b57891610a5e3d2fc069d40c28413ed071e8384e3702dbd8c3cd242f"
+    },
+    {
+      "id": "us-09-01-objects",
+      "type": "sso.edit",
+      "target": "us_09_01_objects",
+      "editsFile": "edits/us_09_01_objects.json",
+      "beforeSha256": "f64a7ef3ec88fbd28e7b3326c3194eb2fb0a1d8d1aee06bd13db5b51f025e0a3"
+    },
+    {
+      "id": "us-09-02-objects",
+      "type": "sso.edit",
+      "target": "us_09_02_objects",
+      "editsFile": "edits/us_09_02_objects.json",
+      "beforeSha256": "e9080e427f549f35f40b6701f047bc296bc7f8fb52802fb982a5d39b695ae171"
+    },
+    {
+      "id": "us-10-01-objects",
+      "type": "sso.edit",
+      "target": "us_10_01_objects",
+      "editsFile": "edits/us_10_01_objects.json",
+      "beforeSha256": "899e699800f8e5b7f629cb70b7cf5ee81d6a1ee83009ac1bd559b43a75badc21"
+    },
+    {
+      "id": "us-10-02-objects",
+      "type": "sso.edit",
+      "target": "us_10_02_objects",
+      "editsFile": "edits/us_10_02_objects.json",
+      "beforeSha256": "e0c2c2aa64e5871da91f90002bb7f7ff7ff39c8bdcd7018c56ebcafada5c8055"
+    },
+    {
+      "id": "us-11-01-objects",
+      "type": "sso.edit",
+      "target": "us_11_01_objects",
+      "editsFile": "edits/us_11_01_objects.json",
+      "beforeSha256": "2b1e2feb8a6c7a5a66cab4b3d1ff8c1becc9c41e5ec8514275e5106ab1a44978"
+    },
+    {
+      "id": "us-11-02-objects",
+      "type": "sso.edit",
+      "target": "us_11_02_objects",
+      "editsFile": "edits/us_11_02_objects.json",
+      "beforeSha256": "28206b670efe9ed89fcd5449848c962d1b1245e37d383606497789774d022627"
+    },
+    {
+      "id": "us-12-01-objects",
+      "type": "sso.edit",
+      "target": "us_12_01_objects",
+      "editsFile": "edits/us_12_01_objects.json",
+      "beforeSha256": "f6b34a337b7777d65c791bad2d511752544ce38f63fc1f12a01ee0bc4c4c5f15"
+    },
+    {
+      "id": "us-12-02-objects",
+      "type": "sso.edit",
+      "target": "us_12_02_objects",
+      "editsFile": "edits/us_12_02_objects.json",
+      "beforeSha256": "2ac43725a8dff68213c63ce71f25b8fd9f9dbdda7ce3bc1fa0e2f8acd2ef636f"
+    },
+    {
+      "id": "us-12-03-objects",
+      "type": "sso.edit",
+      "target": "us_12_03_objects",
+      "editsFile": "edits/us_12_03_objects.json",
+      "beforeSha256": "c57401e7b3f746f7110433ebcc6e6a2a0a56a021c5e3abdedbaa261fcfaf3be9"
+    },
+    {
+      "id": "us-12-04-objects",
+      "type": "sso.edit",
+      "target": "us_12_04_objects",
+      "editsFile": "edits/us_12_04_objects.json",
+      "beforeSha256": "fa63889b3898e3179856b69b468844cba90f7f92eba7845c317974fff4d27b4e"
+    },
+    {
+      "id": "us-14-01-objects",
+      "type": "sso.edit",
+      "target": "us_14_01_objects",
+      "editsFile": "edits/us_14_01_objects.json",
+      "beforeSha256": "2203f6e9b6588a49e02dc9df921fe385f1e6d12c96a9096fbfe996f3f51f1c06"
+    },
+    {
+      "id": "us-14-02-objects",
+      "type": "sso.edit",
+      "target": "us_14_02_objects",
+      "editsFile": "edits/us_14_02_objects.json",
+      "beforeSha256": "92f80b7057db44201422e4085f37a2ca292d882ff9b98785f9eb355dbdc72f63"
+    },
+    {
+      "id": "us-15-01-objects",
+      "type": "sso.edit",
+      "target": "us_15_01_objects",
+      "editsFile": "edits/us_15_01_objects.json",
+      "beforeSha256": "b32f792c2af16ce0b98fdb44f4a0bfcb3771836d951520c75bf7fe311125954d"
+    },
+    {
+      "id": "us-15-02-objects",
+      "type": "sso.edit",
+      "target": "us_15_02_objects",
+      "editsFile": "edits/us_15_02_objects.json",
+      "beforeSha256": "dd944cb8f856c0d5b10fc4f4cbfd6b5f28d3dea79b97e068ab0ab9c55d3ab361"
+    },
+    {
+      "id": "us-16-01-objects",
+      "type": "sso.edit",
+      "target": "us_16_01_objects",
+      "editsFile": "edits/us_16_01_objects.json",
+      "beforeSha256": "5c93dbb26abaad2d398697376158fcc250abeade7fe376c95fe64d45b154a63f"
+    },
+    {
+      "id": "us-16-02-objects",
+      "type": "sso.edit",
+      "target": "us_16_02_objects",
+      "editsFile": "edits/us_16_02_objects.json",
+      "beforeSha256": "1258d63c9e2406f40ae382feda35b4cf984b0d5e0abbe1fbdaafca63a8f9785b"
+    },
+    {
+      "id": "us-16-03-objects",
+      "type": "sso.edit",
+      "target": "us_16_03_objects",
+      "editsFile": "edits/us_16_03_objects.json",
+      "beforeSha256": "04a588764ea2cd47993ef50444aeb2d7345e6314ffbbd84591165d4e431c491d"
+    },
+    {
+      "id": "us-18-01-objects",
+      "type": "sso.edit",
+      "target": "us_18_01_objects",
+      "editsFile": "edits/us_18_01_objects.json",
+      "beforeSha256": "306a0a0c9c58a07e9065c00eb0e7cd978e1ff3c69f0c0f4c8070388d253d1f07"
+    },
+    {
+      "id": "us-18-02-objects",
+      "type": "sso.edit",
+      "target": "us_18_02_objects",
+      "editsFile": "edits/us_18_02_objects.json",
+      "beforeSha256": "5c0d7f09098048bff28816fbf2988428b2f15daf5a2d44f2b7fb5e4249b876a1"
+    }
+  ]
+}
