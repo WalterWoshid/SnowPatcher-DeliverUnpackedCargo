@@ -47,7 +47,7 @@ files and publishes compatible releases. Public checks need no game credentials.
 The original [Deliver Unpacked Cargo 1.2](https://mod.io/g/snowrunner/m/deliver-unpacked-cargo)
 and its gameplay changes are by **nakedDave**. The original release uses
 [SnowPakTool by chase](https://github.com/chase-000/SnowRunnerTools).
-**WalterWoshid** prepared this SnowPatcher conversion, packaged as version 1.2.0.
+**WalterWoshid** prepared this SnowPatcher conversion.
 
 ## Show your support
 
