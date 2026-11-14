@@ -2,7 +2,7 @@
 <h1 align="center">Deliver Unpacked Cargo - SnowPatcher Edition</h1>
 
 <p align="center">
-  <img alt="Version 1.2.0" src="https://img.shields.io/badge/Version-1.2.0-458588?labelColor=ebdbb2&amp;style=flat">
+  <img alt="Version 1.2.1" src="https://img.shields.io/badge/Version-1.2.1-458588?labelColor=ebdbb2&amp;style=flat">
   <img alt="SnowPatcher package" src="https://img.shields.io/badge/Package-SnowPatcher-512BD4?labelColor=ebdbb2&amp;style=flat">
   <a href="https://mod.io/g/snowrunner/m/deliver-unpacked-cargo"><img alt="mod.io" src="https://img.shields.io/badge/mod.io-Original%20mod-8F5BFF?labelColor=ebdbb2&amp;style=flat"></a>
 </p>
@@ -20,6 +20,8 @@ their settings. Active tasks and contracts retain their saved settings until
 restarted. This package does not edit saves.
 
 ## Installation
+
+Requires SnowPatcher 1.1.0 or newer.
 
 Close SnowRunner, add the built ZIP to SnowPatcher, enable the mod and click Apply.
 The source folder itself is not an installable package.

@@ -2,7 +2,7 @@
   "authoringVersion": 1,
   "id": "deliver-unpacked-cargo",
   "name": "Deliver Unpacked Cargo - SnowPatcher Edition",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "authors": [
     "nakedDave",
     "WalterWoshid (SnowPatcher conversion)"
@@ -1198,5 +1198,6 @@
       "editsFile": "edits/us_18_02_objects.json",
       "beforeSha256": "5c0d7f09098048bff28816fbf2988428b2f15daf5a2d44f2b7fb5e4249b876a1"
     }
-  ]
+  ],
+  "minSnowPatcherVersion": "1.1.0"
 }
